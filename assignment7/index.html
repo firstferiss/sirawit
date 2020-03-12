@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Square game</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css">
+		<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- these codes were adapted from https://courses.cs.washington.edu/courses/cse154/17sp/lecture/more-dom/code/squares.html  -->
+		<div class="game"><h1>G A M E Broken Ball</h1></div>
+		<div class="main">
+			วิธีการเล่น
+			<br>
+			<ul>
+			<li>ใส่จำนวนบอลที่ต้องการกด</li>
+			<li>เลือกสีบอล</li>
+			<li>กดบอลสีให้ทันภายในระยะเวลา 30 วินาที</li>
+			</ul>
+		</div>
+		<br>
+		<div class="main">
+			
+			Number of box: 
+			<input type="text" name="numbox" id="numbox">
+			<select name="color" id = "color">
+  				<option value="red">Red</option>
+  				<option value="blue">Blue</option>
+  				<option value="green">Green</option>
+			</select>
+			<button id="start">Start</button>
+			<div id="timerClock"> Timer:
+				<div id="clock"></div>
+			</div>
+		</div>
+
+		
+		
+
+		<div id="squares-container">
+			<div id="squares-layer"></div>
+		</div>
+	
+	</body>
+</html>

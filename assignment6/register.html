@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='assignment6.css'>
+	<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+	<script src='register.js'></script>
+</head>
+<body>
+	<form name="myForm" id="myForm" action="login.html">
+		
+			<div class="border"><h1>R E G I S T E R</h1></div>
+			<div class="main">
+			<span>* require</span> <br>
+			<span id="errormsg"></span> <br>
+			<div class="margin">
+			First name*: 
+			<input type="text" name="firstname" required>
+			Last name*: 
+			<input type="text" name="lastname" >
+			</div>
+			<br>
+			<div class="margin">
+			Gender*: 
+			<input type="radio" name="gender" value="male" >Male
+			<input type="radio" name="gender" value="female" >Female
+			<input type="radio" name="gender" value="female" >Other
+			</div>
+			<br>
+			<div class="margin">
+			Birthday*: 
+			<input type="date" name="bday" value="" >
+			</div>
+			<br>
+			<div class="margin">
+			Email address*: 
+			<input type="email" name="email" >
+			</div>
+			<br>
+			<div class="margin">
+			Username*: 
+			<input type="text" name="username" >
+			</div>
+			<br>
+			<div class="margin">
+			Password*: 
+			<input type="password" name="password" required>
+			</div>
+			<br>
+			
+			Retype Password*: 
+			<input type="password" name="repassword" required>
+			
+			<br>
+			<input type="submit" value="Register">
+			<input type="reset" value="Reset">
+			</div>
+		
+	</form>
+</body>
+</html>

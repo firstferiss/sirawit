@@ -1,0 +1,305 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    color: black;
+    
+}
+
+h2{
+    color: black;
+    text-shadow: 2px 2px gray;
+}
+h3{
+    font-size: medium;
+}
+
+h4{
+    font-size: 45px;
+    text-shadow: 2px 2px gray;
+}
+
+.head_project{
+    background-color: orange;
+  width: 320px;
+  border-radius: 10px;
+  padding: 1px;
+  padding-left: 40px;
+  margin-left: 30px;
+}
+.hobby{
+    color: white;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.text_left{
+    text-align: right;
+}
+
+.head{
+    background-color: orange;
+    padding-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#profile{
+    padding-top: 10px;
+    width: 20%;
+    vertical-align: middle;
+    border-radius: 275px;
+    
+    
+}
+
+.box1{
+    background-color: orange;
+  width: 250px;
+  border-radius: 150px;
+  padding: 1px;
+  margin: auto;
+}
+
+
+span{
+    margin-left: 30px;
+}
+
+#Logo{
+    width: 10%;
+    float: left;
+    border-radius: 500px;
+    
+}
+
+#poster{
+    width: 10%;
+    float: right;;
+    border-radius: 500px;
+}
+
+#desktop{
+    width: 15%;
+    float: left;;
+    border-radius: 10px;
+}
+
+#web{
+    width: 15%;
+    float: right;;
+    border-radius: 10px;
+}
+
+.hr1{
+    height: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.za{
+    text-shadow: 2px 2px gray;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto ;
+	grid-gap: 10px;
+	
+
+}
+
+.grid-container > div{
+	border-radius: 10px;
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+}
+
+#header{
+	grid-column: 1/ span 4;
+	
+}
+#main1{
+    grid-column: 1/ span 2;
+    background-color: orange;
+    color: white;
+    padding-bottom: 15px;
+    
+    
+}
+#main2{
+	grid-column: 3/ span 2;
+}
+#main3{
+	grid-column: 1/ span 2;
+}
+#main4{
+    grid-column: 3/ span 2;
+    background-color: orange;
+    color: white;
+    padding-bottom: 30px;
+    
+}
+#main5{
+    grid-column: 1/ span 2;
+    background-color: orange;
+    color: white;
+    padding-bottom: 30px;
+}
+#main6{
+	grid-column: 3/ span 2;
+}
+#footter{
+    grid-column: 1/ span 4;
+    background-color: orange;
+    
+}
+
+/* navbar */
+
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 7%;
+    background-color: orange;
+    
+   
+  }
+  
+  .logo {
+    margin-right: auto;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 2px 2px gray;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: white;
+    font-size: xx-large;
+  }
+  
+  .cta {
+    color: black;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: white ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color:orange;
+    font-size: xx-large;
+    color: white;
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: orange;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }
+
+  .facebook a{
+    color: black;
+    font-size: 200%;
+  }
+
+  .facebook a:hover{
+    color: black;
+    font-size: 300%;
+  }

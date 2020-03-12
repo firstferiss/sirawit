@@ -1,0 +1,53 @@
+#squares-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#squares-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px gray;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+
+body{
+    background-color: orange;
+    font-family: 'Kanit', sans-serif;
+}
+
+.main{
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 2px 2px gray;
+}
+.game{
+    margin-left: 10px;
+    text-shadow: 2px 2px gray;
+    
+}
+h1{
+    color: white;
+}

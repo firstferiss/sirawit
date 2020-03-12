@@ -1,0 +1,44 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+}
+
+.border{
+    
+    
+    border-radius: 10px;
+    background-color: orange;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    
+    
+    box-shadow: 2px 2px gray;
+}
+
+span{
+    color: red;
+}
+
+.main{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;   
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    
+    
+    box-shadow: 2px 2px gray;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
